@@ -1,0 +1,70 @@
+/* Font links */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/* common start */
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif ;
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262 ;
+}
+
+/* common end */
+
+/* header start */
+    header{
+        padding: 30px 0;
+        border: 1px solid;
+
+    }
+    .container{
+        overflow: hidden;
+        margin: 0 auto;
+        width: 90%;
+        /* border: 1px solid; */
+
+    }
+    .logo{
+        margin-top: 4px;
+        float: left;
+        width: 12%;
+        /* border: 1px solid; */
+    }
+    .logo a img{
+        width: 100%;
+    }
+    .manu{
+        float: right;
+        width: 65% ;
+        /* border: 1px solid; */
+    }
+    .manu ul{
+        float:right;
+        list-style: none;
+    }
+    .manu ul li{
+        float: left;
+    }
+    .manu ul li a{
+        display: inline-block;
+        margin: 0 55px;
+        color: #626262;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-bottom: 1px solid transparent;
+        transition: .33s linear;
+    }
+    .manu ul li:last-child a{
+        margin: 0;
+    }
+    .manu ul li a:hover{
+        border-bottom: 1px solid #626262;
+        /* color: black; */
+    }
+
+
+
+/* header end */
